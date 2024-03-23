@@ -28,3 +28,4 @@ D:\C# Projects\EmployeeDotNetMVCApplication\EmployeeDotNetMVCApplication\obj\Deb
 D:\C# Projects\EmployeeDotNetMVCApplication\EmployeeDotNetMVCApplication\obj\Debug\net8.0\EmployeeDotNetMVCApplication.pdb
 D:\C# Projects\EmployeeDotNetMVCApplication\EmployeeDotNetMVCApplication\obj\Debug\net8.0\EmployeeDotNetMVCApplication.genruntimeconfig.cache
 D:\C# Projects\EmployeeDotNetMVCApplication\EmployeeDotNetMVCApplication\obj\Debug\net8.0\ref\EmployeeDotNetMVCApplication.dll
+D:\C# Projects\EmployeeDotNetMVCApplication\EmployeeDotNetMVCApplication\obj\Debug\net8.0\EmployeeDotNetMVCApplication.sourcelink.json
