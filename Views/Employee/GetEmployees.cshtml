@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Hours</title>
+    <style>
+        thead {
+            background-color: lightgrey;
+        }
+
+        tbody tr {
+            background-color: white;
+        }
+
+        tbody tr.hours-less-than-100 {
+            background-color: pink;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employees</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Total Working Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr class="@((employee.Hours < 100) ? "hours-less-than-100" : "")">
+                    <td>@employee.Name</td>
+                    <td>@employee.Hours</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
